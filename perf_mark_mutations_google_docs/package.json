@@ -1,0 +1,16 @@
+{
+  "title": "Perf Mark of Mutations for Google Docs",
+  "name": "perf_mark_mutations_google_docs",
+  "version": "0.0.1",
+  "description": "Using Mutation Observers to monitor the DOM change of Google Docs.",
+  "main": "index.js",
+  "author": "Askeing",
+  "engines": {
+    "firefox": ">=38.0 <=49.0",
+    "fennec": ">=38.0 <=49.0"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "google", "docs", "mutation", "dom", "performance"
+  ]
+}
