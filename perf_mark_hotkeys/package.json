@@ -1,0 +1,66 @@
+{
+  "title": "Sending Perf Mark by Hotkeys",
+  "name": "perf_mark_hotkeys",
+  "version": "0.0.1",
+  "description": "Using Hotkey to send Performance Mark at Runtime.",
+  "main": "index.js",
+  "author": "Askeing",
+  "engines": {
+    "firefox": ">=38.0 <=49.0",
+    "fennec": ">=38.0 <=49.0"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "performance", "hotkey", "profiling"
+  ],
+  "preferences": [
+    {
+      "name": "pm3",
+      "type": "string",
+      "title": "Ctrl Shift 3",
+      "value": "Perf Mark #3"
+    },
+    {
+      "name": "pm4",
+      "type": "string",
+      "title": "Ctrl Shift 4",
+      "value": "Perf Mark #4"
+    },
+    {
+      "name": "pm5",
+      "type": "string",
+      "title": "Ctrl Shift 5",
+      "value": "Perf Mark #5"
+    },
+    {
+      "name": "pm6",
+      "type": "string",
+      "title": "Ctrl Shift 6",
+      "value": "Perf Mark #6"
+    },
+    {
+      "name": "pm7",
+      "type": "string",
+      "title": "Ctrl Shift 7",
+      "value": "Perf Mark #7"
+    },
+    {
+      "name": "pm8",
+      "type": "string",
+      "title": "Ctrl Shift 8",
+      "value": "Perf Mark #8"
+    },
+    {
+      "name": "pm9",
+      "type": "string",
+      "title": "Ctrl Shift 9",
+      "value": "Perf Mark #9"
+    },
+    {
+      "name": "pm0",
+      "type": "string",
+      "title": "Ctrl Shift 0",
+      "value": "Perf Mark #0"
+    }
+  ]
+}
