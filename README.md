@@ -27,7 +27,7 @@ Hotkeys: Ctrl+Shift+3, Ctrl+Shift+4, Ctrl+Shift+5, ..., Ctrl+Shift+0
 ```
 
 * Add-On folder: `perf_mark_hotkeys`
-* Add-On Link: https://addons.mozilla.org/en-US/firefox/addon/perfmark-startend-google-docs/
+* Add-On Link: https://addons.mozilla.org/en-US/firefox/addon/sending-perf-mark-by-hotkeys/
 
 ## Perf Mark of Mutations for Google Docs
 
