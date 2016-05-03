@@ -23,7 +23,8 @@ Using Hotkeys to send Performance Mark at Runtime.
 The Profiler can show the performance mark on profiling results.
 You can setup the mark's message on Add-On preferences page.
 
-Hotkeys: Ctrl+Shift+3, Ctrl+Shift+4, Ctrl+Shift+5, ..., Ctrl+Shift+0
+Hotkeys:
+Ctrl+Shift+3, Ctrl+Shift+4, Ctrl+Shift+5, ..., Ctrl+Shift+0
 ```
 
 * Add-On folder: `perf_mark_hotkeys`
