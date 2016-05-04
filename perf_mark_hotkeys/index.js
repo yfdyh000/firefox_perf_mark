@@ -39,7 +39,6 @@ sp.on("", onPrefChange);
 // load pageMode scripts
 var pm = pageMod.PageMod({
     include: "*",
-    //include: /.*docs\.google\.com.*/,
     contentScriptWhen: "start",
     contentScriptFile: self.data.url("perf_mark_hotkeys.js"),
 });

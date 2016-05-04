@@ -9,6 +9,5 @@
 "use strict";
 
 self.port.on("addPerfMark", function(msg) {
-    console.log("get pm" + msg);
     performance.mark(msg);
 });
