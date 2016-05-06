@@ -8,5 +8,4 @@
 
 "use strict";
 
-console.log("Add-On PageMod End at " + window.location.href);
 performance.mark("Add-On PageMod End at " + window.location.href);

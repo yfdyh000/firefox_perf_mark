@@ -1,8 +1,8 @@
 {
-  "title": "Perf Mark of Add-On Start and End for Google Docs",
+  "title": "Perf Mark of Add-On Start and End",
   "name": "perf_mark_startend_google_docs",
-  "version": "0.0.1",
-  "description": "Using Performance Mark to monitor the Add-On Start and End for Google Docs.",
+  "version": "0.0.2",
+  "description": "Using Performance Mark to monitor the Add-On Start and End.",
   "main": "index.js",
   "author": "Askeing",
   "engines": {
@@ -11,6 +11,30 @@
   },
   "license": "MPL-2.0",
   "keywords": [
-    "google", "docs", "performance"
+    "google",
+    "docs",
+    "performance"
+  ],
+  "preferences": [
+    {
+      "name": "is_regexp",
+      "type": "bool",
+      "title": "Is RegExp?",
+      "description": "Select if URL Match Pattern is RegExp",
+      "value": true
+    },
+    {
+      "name": "url_match_pattern",
+      "type": "string",
+      "title": "URL Match Pattern",
+      "description": "Ref: https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/util_match-pattern",
+      "value": "http[s]{0,1}:\\/\\/docs\\.google\\.com.*"
+    },
+    {
+      "name": "btn_update",
+      "type": "control",
+      "label": "Update!",
+      "title": "Update URL Match Pattern"
+    }
   ]
 }

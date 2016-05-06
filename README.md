@@ -1,13 +1,23 @@
 # Firefox Perf Mark Tools
 The Firefox Add-Ons tools for finding performance problems
 
-## [Perf Mark of Add-On Start and End for Google Docs](https://addons.mozilla.org/en-US/firefox/addon/perfmark-startend-google-docs/)
+## [Perf Mark of Add-On Start and End](https://addons.mozilla.org/en-US/firefox/addon/perfmark-startend-google-docs/)
 
 * Add-On folder: `perf_mark_startend_google_docs`
 * Add-On Link: https://addons.mozilla.org/en-US/firefox/addon/perfmark-startend-google-docs/
 
-Using Performance Mark to monitor the Add-On Start and End for Google Docs.
+Using Performance Mark to monitor the Add-On Start and End.
 The Profiler can show the performance mark on profiling results at pageMod start and end.
+
+Setup the URL Match Pattern to monitor the timing.
+
+**Reference**:
+https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/page-mod
+```text
+"start": Load content scripts immediately after the document element is inserted into the DOM, but before the DOM content itself has been loaded
+"ready": Load content scripts once DOM content has been loaded, corresponding to the DOMContentLoaded event
+"end": Load content scripts once all the content (DOM, JS, CSS, images) has been loaded, at the time the window.onload event fires
+```
 
 ## [Sending Perf Mark by Hotkeys](https://addons.mozilla.org/en-US/firefox/addon/sending-perf-mark-by-hotkeys/)
 
