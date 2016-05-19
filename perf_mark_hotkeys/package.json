@@ -1,13 +1,13 @@
 {
   "title": "Sending Perf Mark by Hotkeys",
   "name": "perf_mark_hotkeys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Using Hotkeys to send Performance Mark at Runtime.",
   "main": "index.js",
   "author": "Askeing",
   "engines": {
-    "firefox": ">=38.0 <=49.0",
-    "fennec": ">=38.0 <=49.0"
+    "firefox": ">=38.0 <=50.0",
+    "fennec": ">=38.0 <=50.0"
   },
   "license": "MPL-2.0",
   "keywords": [
@@ -61,6 +61,54 @@
       "type": "string",
       "title": "Ctrl Shift 0",
       "value": "Perf Mark #0"
+    },
+    {
+      "name": "enable_pm3",
+      "title": "Enable Ctrl Shift 3?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm4",
+      "title": "Enable Ctrl Shift 4?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm5",
+      "title": "Enable Ctrl Shift 5?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm6",
+      "title": "Enable Ctrl Shift 6?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm7",
+      "title": "Enable Ctrl Shift 7?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm8",
+      "title": "Enable Ctrl Shift 8?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm9",
+      "title": "Enable Ctrl Shift 9?",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "name": "enable_pm0",
+      "title": "Enable Ctrl Shift 0?",
+      "type": "bool",
+      "value": true
     }
   ]
 }
