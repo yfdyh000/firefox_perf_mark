@@ -60,12 +60,14 @@ function load_page_mod(url_include) {
         include: url_include,
         contentScriptWhen: "start",
         contentScriptFile: self.data.url("perf_mark_start.js"),
+        attachTo: ["existing", "top"],
     });
 
     pm_end = pageMod.PageMod({
         include: url_include,
         contentScriptWhen: "end",
         contentScriptFile: self.data.url("perf_mark_end.js"),
+        attachTo: ["existing", "top"],
     });
 }
 

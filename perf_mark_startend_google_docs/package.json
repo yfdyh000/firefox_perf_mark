@@ -1,13 +1,13 @@
 {
   "title": "Perf Mark of Add-On Start and End",
   "name": "perf_mark_startend_google_docs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Using Performance Mark to monitor the Add-On Start and End.",
   "main": "index.js",
   "author": "Askeing",
   "engines": {
-    "firefox": ">=38.0 <=49.0",
-    "fennec": ">=38.0 <=49.0"
+    "firefox": ">=38.0 <=50.0",
+    "fennec": ">=38.0 <=50.0"
   },
   "license": "MPL-2.0",
   "keywords": [
