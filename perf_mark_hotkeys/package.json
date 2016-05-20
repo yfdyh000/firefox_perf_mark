@@ -1,7 +1,7 @@
 {
   "title": "Sending Perf Mark by Hotkeys",
   "name": "perf_mark_hotkeys",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Using Hotkeys to send Performance Mark at Runtime.",
   "main": "index.js",
   "author": "Askeing",
