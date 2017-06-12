@@ -24,7 +24,7 @@ function eval_url_include(url_match_pattern, is_regexp) {
     if (is_regexp == true) {
         /*
          * The RegExp style match pattern string example:
-         *   "http[s]{0,1}:\\/\\/docs\\.google\\.com.*"
+         *   "https?:\\/\\/docs\\.google\\.com.*"
          *   ".*docs\\.google\\.com.*"
          * */
         try {

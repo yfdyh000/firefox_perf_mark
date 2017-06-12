@@ -28,7 +28,7 @@
       "type": "string",
       "title": "URL Match Pattern",
       "description": "Ref: https://developer.mozilla.org/en-US/Add-ons/SDK/Low-Level_APIs/util_match-pattern",
-      "value": "http[s]{0,1}:\\/\\/docs\\.google\\.com.*"
+      "value": "https?:\\/\\/docs\\.google\\.com.*"
     },
     {
       "name": "btn_update",
